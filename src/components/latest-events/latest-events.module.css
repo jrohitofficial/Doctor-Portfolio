@@ -1,0 +1,90 @@
+.latest-show {
+  background-color: #f0f1f3;
+}
+
+.latest-show-container {
+  padding-block: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.content-wrapper {
+  max-width: 64.8rem;
+}
+
+.content-heading {
+  color: var(--text-color-1);
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.divider {
+  width: 200px;
+  height: 1px;
+  background: #e6e8eb;
+  margin-block: 2.4rem;
+}
+
+.content-desc {
+  max-width: 53.6rem;
+  color: var(--text-color-2);
+  line-height: 24px;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.button-wrapper button {
+  width: 5.6rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color, #ffd91a);
+  background-color: #fff;
+  outline: none;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.button-wrapper button:hover {
+  background-color: var(--primary-color, #ffd91a);
+}
+
+.event-wrapper {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.dots-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: max-content;
+  margin-inline: auto;
+}
+
+.dots-wrapper .dot {
+  width: 6px;
+  aspect-ratio: 1;
+  background-color: #c3c7ce;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: width 0.3s linear;
+}
+
+.dots-wrapper .dot.dot-active {
+  width: 1.2rem;
+  background-color: var(--text-color-1);
+}

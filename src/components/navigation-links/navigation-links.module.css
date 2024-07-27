@@ -1,0 +1,41 @@
+.nav-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links-parent {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link-item {
+}
+
+.nav-link {
+  padding: 0.8rem 1.6rem;
+  color: var(--text-color-6);
+  font-weight: 500;
+  transition: background-color 0.3s ease-in;
+}
+
+.nav-link:hover {
+  background-color: var(--primary-shade-color);
+}
+
+.nav-link-item a.active-link {
+  background-color: var(--active-link-color);
+  color: var(--text-color-6);
+  font-weight: 600;
+}
+
+button.contact-btn {
+  padding-inline: 2.4rem;
+  line-height: 4.8rem;
+}
+
+.divider {
+  width: 1px;
+  height: 4rem;
+  background-color: #e6e8eb;
+  margin-inline: 1.2rem 2.4rem;
+}

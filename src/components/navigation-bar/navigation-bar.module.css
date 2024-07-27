@@ -1,0 +1,9 @@
+.navigation-container {
+  background-color: var(--white-color);
+}
+
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

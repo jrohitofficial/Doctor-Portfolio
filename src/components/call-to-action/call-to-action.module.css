@@ -1,0 +1,29 @@
+.call-to-action {
+  padding-block: 10rem;
+  background-color: var(--text-color-1);
+}
+
+.call-to-action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  max-width: 64.8rem;
+  color: var(--white-color);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+}
+
+.content {
+  max-width: 53.6rem;
+}
+
+.content-desc {
+  color: #a5acb5;
+  font-size: 2rem;
+  line-height: 28px;
+  margin-bottom: 3.2rem;
+}

@@ -1,0 +1,49 @@
+.award-card {
+  padding-inline: 2.4rem;
+  padding-block: 0 2.4rem;
+  border: 1px solid #e6e8eb;
+  background: var(--white-color);
+  max-width: 31.2rem;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.award-card img {
+  max-width: 16.4rem;
+  aspect-ratio: 1;
+  object-fit: contain;
+  margin-top: -4.4rem;
+}
+
+.award-card h2 {
+  color: #f0f1f3;
+  font-size: 5.4rem;
+  font-weight: 600;
+  position: absolute;
+  top: 1.2rem;
+  right: 2.4rem;
+  font-weight: 600;
+  transition: color 0.4s ease;
+}
+
+.award-card h3 {
+  color: var(--text-color-1);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1.6rem;
+}
+
+.award-card p {
+  color: var(--text-color-3);
+  font-size: 1.4rem;
+  line-height: 20px;
+  margin-top: 0.8rem;
+}
+
+.award-card:hover {
+  box-shadow: 0px 16px 48px 0px rgba(19, 34, 56, 0.08);
+}
+
+.award-card:hover h2 {
+  color: var(--primary-color);
+}

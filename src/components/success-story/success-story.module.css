@@ -1,0 +1,99 @@
+.success-story {
+  padding-block: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.story-content {
+  max-width: 53.6rem;
+}
+
+.story-content-heading {
+  color: var(--text-color-1);
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.divider {
+  width: 200px;
+  height: 1px;
+  background: #e6e8eb;
+  margin-block: 2.4rem;
+}
+
+.story-content-desc {
+  color: var(--text-color-2);
+  line-height: 24px;
+}
+
+.actions-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.button-wrapper button {
+  width: 5.6rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color, #ffd91a);
+  background-color: #fff;
+  outline: none;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.button-wrapper button:hover {
+  background-color: var(--primary-color, #ffd91a);
+}
+
+.dots-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: max-content;
+}
+
+.dots-wrapper .dot {
+  width: 6px;
+  aspect-ratio: 1;
+  background-color: #c3c7ce;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: width 0.3s linear;
+}
+
+.dots-wrapper .dot.dot-active {
+  width: 1.2rem;
+  background-color: var(--text-color-1);
+}
+
+.story-quote {
+  padding: 5.6rem;
+  border: 4px solid var(--primary-color, #ffd91a);
+  background: #fffbe8;
+}
+
+.quote {
+  font-size: 5.6rem;
+  color: var(--text-color-1);
+}
+
+.quote-text {
+  max-width: 53.6rem;
+  color: var(--text-color-1);
+  font-size: 2.4rem;
+  line-height: 32px;
+  margin-top: 3.2rem;
+}

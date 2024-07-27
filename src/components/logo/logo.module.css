@@ -1,0 +1,17 @@
+.logo {
+  padding: 2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 26px;
+  width: 20rem;
+}
+
+.dark {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+.light {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}

@@ -1,0 +1,62 @@
+.work-history {
+  padding-block: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.work-his-heading-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.history-heading {
+  color: var(--text-color-1);
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.divider {
+  width: 20rem;
+  height: 0.1rem;
+  background: #e6e8eb;
+}
+
+.history-desc {
+  max-width: 64.8rem;
+  color: var(--text-color-2);
+  line-height: 24px;
+}
+
+.work-history-card-wrapper {
+  display: flex;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+}
+
+.work-history-arrow-wrapper {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.work-history-arrow-wrapper button {
+  width: 5.6rem;
+  aspect-ratio: 1;
+  outline: none;
+  border: none;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  border: 2px solid var(--primary-color, #ffd91a);
+  font-size: 2.4rem;
+  display: grid;
+  place-items: center;
+  transition: background-color 0.3s linear;
+}
+
+.work-history-arrow-wrapper button:hover {
+  background-color: var(--primary-color);
+}

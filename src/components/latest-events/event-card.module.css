@@ -1,0 +1,38 @@
+.event-card {
+  padding: 32px;
+  background: #fff;
+  max-width: 64.8rem;
+}
+
+.date-comments {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.date-wrapper,
+.comments-wrapper {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  color: #424e60;
+  font-size: 1.4rem;
+}
+
+.icon {
+  font-size: 2.4rem;
+  color: #1777e5;
+}
+
+.card-title {
+  color: var(--text-color-1);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-block: 1.2rem 2rem;
+}
+
+.card-desc {
+  color: var(--text-color-2);
+  font-size: 1.4rem;
+  line-height: 20px;
+}

@@ -1,0 +1,38 @@
+.education-card {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.ed-card-left {
+  flex: 1;
+  max-width: 20rem;
+}
+
+.ed-card-left h5 {
+  color: #1777e5;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.ed-card-left p {
+  color: var(--text-color-3);
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.ed-card-content {
+  max-width: 37.6rem;
+}
+
+.ed-card-content h2 {
+  color: var(--text-color-1);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.ed-card-content p {
+  color: var(--text-color-3);
+  font-size: 1.4rem;
+  line-height: 20px;
+  margin-top: 1.2rem;
+}

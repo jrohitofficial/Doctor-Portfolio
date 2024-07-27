@@ -1,0 +1,58 @@
+.qualification-awards {
+  padding-block: 10rem;
+}
+
+.qualification-heading-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.qualification-heading {
+  color: var(--text-color-1);
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.divider-heading {
+  width: 20rem;
+  height: 0.1rem;
+  background: #e6e8eb;
+}
+
+.qualification-desc {
+  max-width: 64.8rem;
+  color: var(--text-color-2);
+  line-height: 24px;
+}
+
+.qualification-content {
+  margin-top: 6.4rem;
+  display: flex;
+  gap: 7.2rem;
+}
+
+.education-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e6e8eb;
+}
+
+.award-card-wrapper {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.award-card-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}

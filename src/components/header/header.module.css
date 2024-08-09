@@ -1,10 +1,12 @@
 .header-container {
-  background-color: var(--primary-shade-color);
+  background-color: var(--bg-color); /* Use a background color that adapts to both themes */
+  padding: 2rem 0; /* Adding padding if needed */
 }
 
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between; /* Ensure alignment of content and image */
 }
 
 .header-content {
@@ -31,6 +33,7 @@
   font-size: 2rem;
   line-height: 2.8rem;
   max-width: 64.8rem;
+  color: var(--text-color-2);
 }
 
 .header-button-wrapper {
@@ -49,15 +52,5 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* filter: drop-shadow(0 0 10rem rgba(0, 0, 0, 0.123));
-  animation: anim 1s linear infinite alternate; */
+  background-color: transparent; /* Ensure transparency to blend with background */
 }
-
-/* @keyframes anim {
-  from {
-    filter: grayscale(0%);
-  }
-  to {
-    filter: grayscale(100%);
-  }
-} */

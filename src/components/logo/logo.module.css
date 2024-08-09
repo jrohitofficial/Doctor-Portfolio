@@ -4,14 +4,8 @@
   font-weight: 700;
   line-height: 26px;
   width: 20rem;
+  background-color: var(--bg-color); /* Use background color based on the theme */
+  color: var(--text-color-1); /* Use text color based on the theme */
 }
 
-.dark {
-  background-color: var(--white-color);
-  color: var(--black-color);
-}
-
-.light {
-  background-color: var(--black-color);
-  color: var(--white-color);
-}
+/* Removed .dark and .light classes as they are redundant with the theme variables */

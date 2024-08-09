@@ -1,7 +1,7 @@
 .work-history-card {
   padding: 3.2rem;
-  background-color: var(--white-color);
-  border: 1px solid #e6e8eb;
+  background-color: var(--bg-color); /* Updated to use background color variable */
+  border: 1px solid var(--border-color-light, #e6e8eb); /* Updated to use a border color variable with fallback */
   max-width: 42.4rem;
   transition: box-shadow 0.3s ease;
   cursor: pointer;
@@ -9,7 +9,7 @@
 
 .work-history-card:hover {
   border-color: transparent;
-  box-shadow: 0px 16px 48px 0px rgba(19, 34, 56, 0.12);
+  box-shadow: 0px 16px 48px 0px rgba(19, 34, 56, 0.12); /* No change: Shadow opacity should work across themes */
 }
 
 .work-history-card img {
@@ -20,7 +20,7 @@
 }
 
 .work-history-card:hover img {
-  filter: drop-shadow(0 1rem 1rem rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 1rem 1rem rgba(0, 0, 0, 0.3)); /* No change: Shadow should adapt well */
   transform: scale(1.05);
 }
 
@@ -29,12 +29,13 @@
 }
 
 .history-card-time {
-  color: #697484;
+  color: var(--text-color-3); /* Updated to use a text color variable */
   font-size: 1.4rem;
   font-weight: 600;
 }
+
 .current-time {
-  color: #1777e5;
+  color: var(--primary-color); /* Updated to use primary color variable */
 }
 
 .history-card-title {

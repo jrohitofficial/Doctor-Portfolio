@@ -4,8 +4,8 @@
   font-weight: 700;
   text-transform: capitalize;
   line-height: 6.4rem;
-  transition: background-color 0.3s ease-in-out;
-  border: 2px solid var(--primary-color, #ffd91a);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  border: 2px solid var(--primary-color); /* Removed fallback, assuming primary color is always defined */
   background-color: var(--primary-color);
   font-size: 1.6rem;
   display: flex;
@@ -14,15 +14,17 @@
 }
 
 .btn:hover {
-  background-color: var(--white-color);
+  background-color: var(--bg-color); /* Changed to adapt to dark mode */
+  color: var(--primary-color); /* Ensures text color contrasts well with background */
 }
 
 .btn-secondary {
-  background-color: var(--white-color);
-  border: 2px solid var(--primary-color, #ffd91a);
-  box-shadow: 0px 8px 32px 0px rgba(19, 34, 56, 0.06);
+  background-color: var(--bg-color); /* Updated to use background color variable */
+  border: 2px solid var(--primary-color); /* Removed fallback, assuming primary color is always defined */
+  box-shadow: 0px 8px 32px 0px rgba(19, 34, 56, 0.06); /* Shadow remains as is */
 }
 
 .btn-secondary:hover {
   background-color: var(--primary-color);
+  color: var(--bg-color); /* Ensures text color contrasts well with the primary color */
 }

@@ -56,6 +56,12 @@ table {
 
   /* light theme */
   --bg-color: var(--white-color);
+  --text-color: var(--text-color-1);
+}
+
+[data-theme="dark"] {
+  --bg-color: var(--black-color);
+  --text-color: var(--white-color);
 }
 
 .container {
@@ -68,4 +74,5 @@ body {
   font-size: 1.6rem;
   font-family: var(--primary-font);
   background-color: var(--bg-color);
+  color: var(--text-color);
 }

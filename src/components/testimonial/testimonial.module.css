@@ -4,7 +4,7 @@
 }
 
 .testimonial-container {
-  color: var(--white-color);
+  color: var(--bg-color); /* Updated to use background color variable */
   display: flex;
   align-items: center;
   gap: 8.2rem;
@@ -18,7 +18,7 @@
 }
 
 .quote-subtitle {
-  color: var(--primary-color, #ffd91a);
+  color: var(--primary-color); /* Removed fallback assuming primary color is defined */
   font-size: 1.8rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -69,7 +69,7 @@
 
 .quote-dots .dot-active {
   width: 1.2rem;
-  background-color: var(--white-color);
+  background-color: var(--bg-color); /* Updated to use background color variable */
 }
 
 .testimonial-img-parent {

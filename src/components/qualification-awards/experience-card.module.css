@@ -9,7 +9,7 @@
 }
 
 .ed-card-left h5 {
-  color: #1777e5;
+  color: var(--primary-color); /* Updated to use the primary color variable */
   font-size: 1.4rem;
   font-weight: 600;
 }

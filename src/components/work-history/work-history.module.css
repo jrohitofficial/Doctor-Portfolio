@@ -23,7 +23,7 @@
 .divider {
   width: 20rem;
   height: 0.1rem;
-  background: #e6e8eb;
+  background: var(--border-color-light, #e6e8eb); /* Updated to use a border color variable with fallback */
 }
 
 .history-desc {
@@ -48,9 +48,9 @@
   aspect-ratio: 1;
   outline: none;
   border: none;
-  background-color: var(--white-color);
+  background-color: var(--bg-color); /* Updated to use background color variable */
   border-radius: 50%;
-  border: 2px solid var(--primary-color, #ffd91a);
+  border: 2px solid var(--primary-color); /* Removed fallback assuming primary color is defined */
   font-size: 2.4rem;
   display: grid;
   place-items: center;

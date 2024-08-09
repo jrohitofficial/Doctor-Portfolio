@@ -1,5 +1,5 @@
 .latest-show {
-  background-color: #f0f1f3;
+  background-color: var(--bg-light, #f0f1f3); /* Updated to use a variable for light background with fallback */
 }
 
 .latest-show-container {
@@ -29,7 +29,7 @@
 .divider {
   width: 200px;
   height: 1px;
-  background: #e6e8eb;
+  background: var(--border-color-light, #e6e8eb); /* Updated to use a border color variable with fallback */
   margin-block: 2.4rem;
 }
 
@@ -48,8 +48,8 @@
   width: 5.6rem;
   aspect-ratio: 1;
   border-radius: 50%;
-  border: 2px solid var(--primary-color, #ffd91a);
-  background-color: #fff;
+  border: 2px solid var(--primary-color); /* Removed fallback assuming primary color is defined */
+  background-color: var(--bg-color); /* Updated to use background color variable */
   outline: none;
   font-size: 2.4rem;
   display: flex;
@@ -59,7 +59,7 @@
 }
 
 .button-wrapper button:hover {
-  background-color: var(--primary-color, #ffd91a);
+  background-color: var(--primary-color); /* Removed fallback */
 }
 
 .event-wrapper {
@@ -78,7 +78,7 @@
 .dots-wrapper .dot {
   width: 6px;
   aspect-ratio: 1;
-  background-color: #c3c7ce;
+  background-color: var(--text-color-4, #c3c7ce); /* Updated to use a text color variable with fallback */
   border-radius: 50%;
   cursor: pointer;
   transition: width 0.3s linear;

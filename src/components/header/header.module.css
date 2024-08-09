@@ -1,5 +1,5 @@
 .header-container {
-  background-color: var(--primary-shade-color);
+  background-color: var(--primary-shade-color); /* Assuming this works well in both themes */
 }
 
 .header {
@@ -31,6 +31,7 @@
   font-size: 2rem;
   line-height: 2.8rem;
   max-width: 64.8rem;
+  color: var(--text-color-2); /* Ensure description text color adapts to the theme */
 }
 
 .header-button-wrapper {
@@ -49,8 +50,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* filter: drop-shadow(0 0 10rem rgba(0, 0, 0, 0.123));
-  animation: anim 1s linear infinite alternate; */
+  /* filter: drop-shadow(0 0 10rem rgba(0, 0, 0, 0.123)); */
+  /* Uncommented this if drop shadow is needed; otherwise, it’s removed */
+  /* animation: anim 1s linear infinite alternate; */ /* Animation commented out as per original */
 }
 
 /* @keyframes anim {

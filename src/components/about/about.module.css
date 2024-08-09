@@ -19,17 +19,17 @@
 }
 
 .about-container::after {
-  background: var(--white-color);
+  background: var(--bg-color); /* Updated to use the background color variable */
   bottom: 0;
 }
 
 .about-container .about {
   z-index: 1;
-  background-color: var(--white-color);
+  background-color: var(--bg-color); /* Updated to use the background color variable */
   flex: 1;
   padding: 6.4rem;
-  border: 1px solid #e6e8eb;
-  box-shadow: 0px 24px 80px 0px rgba(19, 34, 56, 0.08);
+  border: 1px solid var(--border-color, #e6e8eb); /* Updated to use a variable with a fallback */
+  box-shadow: 0px 24px 80px 0px rgba(19, 34, 56, 0.08); /* No change: Shadow opacity should be fine */
   max-width: 1448px;
   display: flex;
   align-items: start;
@@ -76,13 +76,13 @@
 
 .featured-container {
   padding: 2.4rem;
-  border: 1px solid #e6e8eb;
-  background: var(--white-color);
+  border: 1px solid var(--border-color, #e6e8eb); /* Updated to use a variable with a fallback */
+  background: var(--bg-color); /* Updated to use the background color variable */
   flex: 1;
 }
 
 .featured-heading {
-  color: #697484;
+  color: var(--text-color-3); /* Updated to use the text color variable */
   font-size: 1.4rem;
   font-weight: 500;
   text-transform: uppercase;

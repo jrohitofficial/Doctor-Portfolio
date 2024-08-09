@@ -1,5 +1,5 @@
 .navigation-container {
-  background-color: var(--white-color);
+  background-color: var(--bg-color); /* Updated to use the background color variable */
 }
 
 .navigation-bar {

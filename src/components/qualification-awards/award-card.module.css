@@ -1,8 +1,8 @@
 .award-card {
   padding-inline: 2.4rem;
   padding-block: 0 2.4rem;
-  border: 1px solid #e6e8eb;
-  background: var(--white-color);
+  border: 1px solid var(--border-color-light, #e6e8eb); /* Updated to use a border color variable with fallback */
+  background: var(--bg-color); /* Updated to use background color variable */
   max-width: 31.2rem;
   position: relative;
   transition: box-shadow 0.3s ease;
@@ -16,13 +16,12 @@
 }
 
 .award-card h2 {
-  color: #f0f1f3;
+  color: var(--text-color-6); /* Updated to use a text color variable */
   font-size: 5.4rem;
   font-weight: 600;
   position: absolute;
   top: 1.2rem;
   right: 2.4rem;
-  font-weight: 600;
   transition: color 0.4s ease;
 }
 

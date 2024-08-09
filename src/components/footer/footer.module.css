@@ -1,10 +1,10 @@
 .footer {
-  background-color: var(--text-color-1);
+  background-color: var(--text-color-1); /* Assuming --text-color-1 is suitable for background */
 }
 
 .footer-container {
   padding-block: 10rem;
-  border-block: 1px solid #2b384c;
+  border-block: 1px solid var(--border-color-dark, #2b384c); /* Use a variable for border color with fallback */
   display: flex;
   gap: 2.4rem;
 }
@@ -15,7 +15,7 @@
 }
 
 .heading {
-  color: #fff;
+  color: var(--bg-color); /* Updated to adapt based on the theme */
   font-size: 1.8rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -23,7 +23,7 @@
 }
 
 .location p {
-  color: #c3c7ce;
+  color: var(--text-color-4); /* Updated to use a text color variable */
   font-size: 1.4rem;
   line-height: 20px;
 }
@@ -42,7 +42,7 @@
 .quick-links li a {
   padding: 0.8rem 1.4rem;
   display: inline-block;
-  color: #a5acb5;
+  color: var(--text-color-5); /* Updated to use a text color variable */
   font-weight: 500;
   transition-property: background-color, color;
   transition: 0.3s ease;
@@ -59,12 +59,12 @@
 
 .follow-me li a:hover,
 .quick-links li a:hover {
-  background-color: var(--primary-color, #ffd91a);
-  color: var(--text-color-1);
+  background-color: var(--primary-color); /* Assuming primary color is defined for both themes */
+  color: var(--bg-color); /* Updated to ensure contrast with the primary color */
 }
 
 .footer-text {
   padding-block: 3.2rem;
-  color: #a5acb5;
+  color: var(--text-color-5); /* Updated to use a text color variable */
   text-align: center;
 }

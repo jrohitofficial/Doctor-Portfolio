@@ -1,6 +1,6 @@
 .call-to-action {
   padding-block: 10rem;
-  background-color: var(--text-color-1);
+  background-color: var(--text-color-1); /* Assuming --text-color-1 is intended to be a background color */
 }
 
 .call-to-action-container {
@@ -11,7 +11,7 @@
 
 .title {
   max-width: 64.8rem;
-  color: var(--white-color);
+  color: var(--bg-color); /* Updated to adapt based on the theme */
   font-size: 4rem;
   font-weight: 700;
   line-height: 4.8rem;
@@ -22,7 +22,7 @@
 }
 
 .content-desc {
-  color: #a5acb5;
+  color: var(--text-color-3); /* Updated to use a text color variable */
   font-size: 2rem;
   line-height: 28px;
   margin-bottom: 3.2rem;

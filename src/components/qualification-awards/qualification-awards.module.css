@@ -19,7 +19,7 @@
 .divider-heading {
   width: 20rem;
   height: 0.1rem;
-  background: #e6e8eb;
+  background: var(--border-color-light, #e6e8eb); /* Updated to use a border color variable with fallback */
 }
 
 .qualification-desc {
@@ -42,7 +42,7 @@
 
 .divider {
   height: 1px;
-  background-color: #e6e8eb;
+  background-color: var(--border-color-light, #e6e8eb); /* Updated to use a border color variable with fallback */
 }
 
 .award-card-wrapper {

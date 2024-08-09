@@ -1,6 +1,6 @@
 .event-card {
   padding: 32px;
-  background: #fff;
+  background: var(--bg-color); /* Updated to use the background color variable */
   max-width: 64.8rem;
 }
 
@@ -15,13 +15,13 @@
   display: flex;
   gap: 0.6rem;
   align-items: center;
-  color: #424e60;
+  color: var(--text-color-3); /* Updated to use a text color variable */
   font-size: 1.4rem;
 }
 
 .icon {
   font-size: 2.4rem;
-  color: #1777e5;
+  color: var(--primary-color); /* Updated to use primary color variable */
 }
 
 .card-title {
